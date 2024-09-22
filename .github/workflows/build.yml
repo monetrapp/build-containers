@@ -20,7 +20,7 @@ jobs:
           - path: postgres
             version: 14
           - path: debian
-            version: 12.1
+            version: 12.7
     steps:
       - uses: actions/checkout@v2
         with:
